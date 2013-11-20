@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="teppeistudio.jobflow.MainTest" time="5.492" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="10M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ITPUser/asakusa-develop/workspace/firststep"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-10M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="SJIS"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.6.8"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ITPUser"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="SJIS"/>
+    <property name="user.name" value="ITPUser"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="ja"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1060.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="test" classname="teppeistudio.jobflow.MainTest" time="5.492">
+    <failure message="Hadoopジョブの実行に失敗しました (exitCode=255, flowId=MainTest-bid-MainJobFlow, command=[/Users/ITPUser/asakusa-develop/asakusa/testing/libexec/hadoop-execute.sh, /var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar, test.jobflow.bid.mainJobFlow.stage0001.StageClient, bid, -D, com.asakusafw.executionId=MainTest-bid-MainJobFlow, -D, com.asakusafw.batchArgs=, -D, com.asakusafw.user=ITPUser])" type="java.lang.AssertionError">java.lang.AssertionError: Hadoopジョブの実行に失敗しました (exitCode=255, flowId=MainTest-bid-MainJobFlow, command=[/Users/ITPUser/asakusa-develop/asakusa/testing/libexec/hadoop-execute.sh, /var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar, test.jobflow.bid.mainJobFlow.stage0001.StageClient, bid, -D, com.asakusafw.executionId=MainTest-bid-MainJobFlow, -D, com.asakusafw.batchArgs=, -D, com.asakusafw.user=ITPUser])
+	at com.asakusafw.testdriver.JobflowExecutor.runHadoopJob(JobflowExecutor.java:375)
+	at com.asakusafw.testdriver.JobflowExecutor.runJobflowJobs(JobflowExecutor.java:341)
+	at com.asakusafw.testdriver.JobflowExecutor.executePlan(JobflowExecutor.java:321)
+	at com.asakusafw.testdriver.JobflowExecutor.runJobflow(JobflowExecutor.java:224)
+	at com.asakusafw.testdriver.JobFlowTester.runTestInternal(JobFlowTester.java:155)
+	at com.asakusafw.testdriver.JobFlowTester.runTest(JobFlowTester.java:97)
+	at teppeistudio.jobflow.MainTest.test(MainTest.java:26)
+</failure>
+    <system-out>16:04:03 [main] INFO  c.a.testdriver.JobFlowDriverInput - prepare - ModelType:class teppeistudio.modelgen.dmdl.model.ItemMaster
+16:04:03 [main] INFO  c.a.testdriver.DriverInputBase - Source URI:file:/Users/ITPUser/asakusa-develop/workspace/firststep/target/test-classes/teppeistudio/jobflow/item_master.xls#input
+16:04:03 [main] INFO  c.a.testdriver.JobFlowDriverInput - prepare - ModelType:class teppeistudio.modelgen.dmdl.model.SalesDetail
+16:04:03 [main] INFO  c.a.testdriver.DriverInputBase - Source URI:file:/Users/ITPUser/asakusa-develop/workspace/firststep/target/test-classes/teppeistudio/jobflow/sales_detail.xls#input
+16:04:03 [main] INFO  c.a.testdriver.JobFlowDriverOutput - verify - ModelType:class teppeistudio.modelgen.dmdl.model.SalesDetail2
+16:04:03 [main] INFO  c.asakusafw.testdriver.JobFlowTester - テストを開始しています: teppeistudio.jobflow.MainTest
+16:04:03 [main] INFO  c.asakusafw.testdriver.JobFlowTester - ジョブフローをコンパイルしています: teppeistudio.jobflow.MainJobFlow
+16:04:03 [main] INFO  c.a.c.r.SpiDataClassRepository - データモデルクラスのプラグインを読み出します
+16:04:03 [main] INFO  c.a.c.r.SpiExternalIoDescriptionProcessorRepository - 外部入出力のプラグインを読み出します
+16:04:03 [main] INFO  c.a.c.r.SpiFlowElementProcessorRepository - フロー要素プロセッサのプラグインを読み出します
+16:04:03 [main] INFO  c.a.c.r.SpiFlowGraphRewriterRepository - グラフ書き換えプラグインを読み出します
+16:04:03 [main] INFO  c.a.c.f.external.ExternalIoAnalyzer - teppeistudio.jobflow.MainJobFlowの入出力を検証しています
+16:04:03 [main] INFO  c.a.compiler.flow.plan.StagePlanner - FlowGraph(teppeistudio.jobflow.MainJobFlow)の実行計画を計算中
+16:04:03 [main] INFO  c.a.c.flow.logging.LoggingFilter - デバッグ用のロギング演算子を削除しています
+16:04:03 [main] INFO  c.a.c.flow.stage.StageCompiler - ステージグラフの各ステージをteppeistudio.jobflow.MainJobFlowをコンパイルします
+16:04:03 [main] INFO  c.a.c.flow.stage.StageCompiler - ステージブロックStageBlock(id=1, maps=1, reduces=1)をコンパイルします
+16:04:03 [main] INFO  c.a.c.flow.stage.ShuffleAnalyzer - StageBlock(id=1, maps=1, reduces=1)で行われるシャッフルフェーズについて分析します
+16:04:04 [main] INFO  c.a.c.flow.jobflow.JobflowCompiler - Compilation Report: bid - MainJobFlow
+16:04:04 [main] INFO  c.a.c.flow.jobflow.JobflowCompiler - Imports: 2
+16:04:04 [main] INFO  c.a.c.flow.jobflow.JobflowCompiler - Exports: 1
+16:04:04 [main] INFO  c.a.c.flow.jobflow.JobflowCompiler - Stages : 1
+16:04:04 [main] INFO  c.a.c.flow.packager.FilePackager - 生成されたソースファイルをコンパイルしています (26個のファイル)
+16:04:05 [main] INFO  c.a.c.flow.packager.FilePackager - コンパイル結果をパッケージングします
+16:04:05 [main] WARN  c.a.testdriver.TestDriverContext - テスト実行環境にバージョン情報が見つかりませんでした：/Users/ITPUser/asakusa-develop/asakusa/asakusafw.version
+16:04:05 [main] INFO  c.asakusafw.testdriver.JobFlowTester - テスト環境を初期化しています: teppeistudio.jobflow.MainTest
+16:04:06 [main] INFO  c.a.t.d.DirectFileInputPreparator - Trancating input: teppeistudio.jobflow.ItemMasterFromCsv
+16:04:06 [main] INFO  c.a.t.directio.DirectIoTestHelper - Truncating firststep (id=root)
+16:04:06 [main] INFO  c.a.t.d.DirectFileInputPreparator - Trancating input: teppeistudio.jobflow.SalesDetailFromCsv
+16:04:06 [main] INFO  c.a.t.directio.DirectIoTestHelper - Truncating firststep (id=root)
+16:04:06 [main] INFO  c.a.t.d.DirectFileOutputRetriever - Truncating output: teppeistudio.jobflow.SalesDetail2ToCsv
+16:04:06 [main] INFO  c.a.t.directio.DirectIoTestHelper - Truncating firststep_out (id=root)
+16:04:06 [main] INFO  c.asakusafw.testdriver.JobFlowTester - テストデータを配置しています: teppeistudio.jobflow.MainTest
+16:04:06 [main] INFO  c.a.t.d.DirectFileInputPreparator - Preparing input: teppeistudio.jobflow.ItemMasterFromCsv
+16:04:06 [main] INFO  c.a.t.directio.DirectIoTestHelper - Opening firststep/item-master.csv for output (id=root, description=teppeistudio.jobflow.ItemMasterFromCsv)
+16:04:06 [main] WARN  o.a.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16:04:06 [main] INFO  c.a.t.excel.ExcelSheetSourceProvider - Excelシートをデータソースに利用します: file:/Users/ITPUser/asakusa-develop/workspace/firststep/target/test-classes/teppeistudio/jobflow/item_master.xls#input
+16:04:06 [main] INFO  c.a.t.d.DirectFileInputPreparator - Preparing input: teppeistudio.jobflow.SalesDetailFromCsv
+16:04:06 [main] INFO  c.a.t.directio.DirectIoTestHelper - Opening firststep/sales-detail.csv for output (id=root, description=teppeistudio.jobflow.SalesDetailFromCsv)
+16:04:06 [main] INFO  c.a.t.excel.ExcelSheetSourceProvider - Excelシートをデータソースに利用します: file:/Users/ITPUser/asakusa-develop/workspace/firststep/target/test-classes/teppeistudio/jobflow/sales_detail.xls#input
+16:04:06 [main] INFO  c.asakusafw.testdriver.JobFlowTester - ジョブフローを実行しています: teppeistudio.jobflow.MainJobFlow
+16:04:06 [main] INFO  c.a.testdriver.JobflowExecutor - [COMMAND] /Users/ITPUser/asakusa-develop/asakusa/testing/libexec/hadoop-execute.sh /var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar test.jobflow.bid.mainJobFlow.stage0001.StageClient bid -D com.asakusafw.executionId=MainTest-bid-MainJobFlow -D com.asakusafw.batchArgs= -D com.asakusafw.user=ITPUser
+Starting TestDriver Hadoop Job:
+ Hadoop Command: /Users/ITPUser/asakusa-develop/hadoop/bin/hadoop
+    App Library: /var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar
+   Execution ID: 
+          Class: test.jobflow.bid.mainJobFlow.stage0001.StageClient
+  All Libraries: /var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar,/Users/ITPUser/asakusa-develop/asakusa/core/lib/asakusa-runtime-all.jar,/Users/ITPUser/asakusa-develop/asakusa/core/lib/asakusa-thundergate-runtime.jar
+  Defined Props: 
+    Extra Props: -D com.asakusafw.executionId=MainTest-bid-MainJobFlow -D com.asakusafw.batchArgs= -D com.asakusafw.user=ITPUser
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Hadoop Job Client: test.jobflow.bid.mainJobFlow.stage0001.StageClient
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Hadoop Job Name: bid.MainJobFlow.stage0001
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Input: path=__DIRECTIO__/SalesDetail/firststep, format=com.asakusafw.runtime.stage.input.BridgeInputFormat, mapper=test.jobflow.bid.mainJobFlow.stage0001.StageMapper1, attributes={basePath=firststep, dataClass=teppeistudio.modelgen.dmdl.model.SalesDetail, formatClass=teppeistudio.modelgen.dmdl.csv.SalesDetailCsvFormat, resourcePath=sales-detail.csv}
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Input: path=__DIRECTIO__/ItemMaster/firststep, format=com.asakusafw.runtime.stage.input.BridgeInputFormat, mapper=test.jobflow.bid.mainJobFlow.stage0001.StageMapper2, attributes={basePath=firststep, dataClass=teppeistudio.modelgen.dmdl.model.ItemMaster, formatClass=teppeistudio.modelgen.dmdl.csv.ItemMasterCsvFormat, resourcePath=item-master.csv}
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Output: path=target/testdriver/hadoopwork/bid/MainJobFlow/stage0001/result0-*, format=com.asakusafw.runtime.stage.output.TemporaryOutputFormat, key=org.apache.hadoop.io.NullWritable, value=teppeistudio.modelgen.dmdl.model.SalesDetail2, attributes={}
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Reducer: test.jobflow.bid.mainJobFlow.stage0001.StageReducer
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Shuffle: key=test.jobflow.bid.mainJobFlow.stage0001.ShuffleKey, value=test.jobflow.bid.mainJobFlow.stage0001.ShuffleValue
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Combiner: N/A
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Partitioner: test.jobflow.bid.mainJobFlow.stage0001.ShufflePartitioner
+13/11/20 16:04:08 INFO stage.AbstractStageClient: GroupingComparator: test.jobflow.bid.mainJobFlow.stage0001.ShuffleGroupingComparator
+13/11/20 16:04:08 INFO stage.AbstractStageClient: SortComparator: test.jobflow.bid.mainJobFlow.stage0001.ShuffleSortComparator
+13/11/20 16:04:08 INFO stage.AbstractStageClient: Submitting Job: bid.MainJobFlow.stage0001
+13/11/20 16:04:08 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+13/11/20 16:04:08 INFO mapred.JobClient: Cleaning up the staging area file:/tmp/hadoop-ITPUser/mapred/staging/ITPUser1443052055/.staging/job_local1443052055_0001
+13/11/20 16:04:08 ERROR security.UserGroupInformation: PriviledgedActionException as:ITPUser cause:java.io.FileNotFoundException: File /var/folders/fE/fECDJocTFziXYxaZkbHIqk   TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar does not exist.
+java.io.FileNotFoundException: File /var/folders/fE/fECDJocTFziXYxaZkbHIqk   TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar does not exist.
+	at org.apache.hadoop.fs.RawLocalFileSystem.getFileStatus(RawLocalFileSystem.java:402)
+	at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:255)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:213)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:163)
+	at org.apache.hadoop.fs.LocalFileSystem.copyFromLocalFile(LocalFileSystem.java:67)
+	at org.apache.hadoop.fs.FileSystem.copyFromLocalFile(FileSystem.java:1178)
+	at org.apache.hadoop.mapred.JobClient.copyAndConfigureFiles(JobClient.java:864)
+	at org.apache.hadoop.mapred.JobClient.copyAndConfigureFiles(JobClient.java:734)
+	at org.apache.hadoop.mapred.JobClient.access$400(JobClient.java:179)
+	at org.apache.hadoop.mapred.JobClient$2.run(JobClient.java:951)
+	at org.apache.hadoop.mapred.JobClient$2.run(JobClient.java:936)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:394)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1190)
+	at org.apache.hadoop.mapred.JobClient.submitJobInternal(JobClient.java:936)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:550)
+	at com.asakusafw.runtime.stage.AbstractStageClient.submit(AbstractStageClient.java:258)
+	at com.asakusafw.runtime.stage.AbstractStageClient.execute(AbstractStageClient.java:221)
+	at com.asakusafw.runtime.stage.BaseStageClient.run(BaseStageClient.java:121)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:79)
+	at com.asakusafw.runtime.stage.ToolLauncher.main(ToolLauncher.java:87)
+	at com.asakusafw.runtime.stage.ToolLauncher.main(ToolLauncher.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:160)
+TestDriver Hadoop Job failed with exit code: 255
+   Runtime Lib: /Users/ITPUser/asakusa-develop/asakusa/core/lib/asakusa-runtime-all.jar
+      Launcher: com.asakusafw.runtime.stage.ToolLauncher
+   Stage Class: test.jobflow.bid.mainJobFlow.stage0001.StageClient
+ Configuration: -conf /Users/ITPUser/asakusa-develop/asakusa/core/conf/asakusa-resources.xml
+     Libraries: -libjars /var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar,/Users/ITPUser/asakusa-develop/asakusa/core/lib/asakusa-runtime-all.jar,/Users/ITPUser/asakusa-develop/asakusa/core/lib/asakusa-thundergate-runtime.jar
+ Defined Props: 
+   Extra Props: -D com.asakusafw.executionId=MainTest-bid-MainJobFlow -D com.asakusafw.batchArgs= -D com.asakusafw.user=ITPUser
+</system-out>
+  </testcase>
+</testsuite>
