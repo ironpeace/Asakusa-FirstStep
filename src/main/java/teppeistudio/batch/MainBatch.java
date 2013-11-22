@@ -5,7 +5,7 @@ import teppeistudio.jobflow.MainJobFlow;
 import com.asakusafw.vocabulary.batch.Batch;
 import com.asakusafw.vocabulary.batch.BatchDescription;
 
-@Batch(name="MainBatch")
+@Batch(name="FirstStepBatch")
 public class MainBatch extends BatchDescription {
 
 	@Override

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <mkdir dir="target/generated-sources/annotations"/>
   <property name="compile_classpath" refid="maven.test.classpath"/>
   <ant antfile="/Users/ITPUser/asakusa-develop/asakusa/scripts/asakusa-build.xml">
-    <target name="generate-model"/>
+    <target name="compile-batchapp"/>
   </ant>
 </target>
 </project>

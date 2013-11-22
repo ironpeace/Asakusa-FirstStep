@@ -1,0 +1,22 @@
+batch: FirstStepBatch
+flow: MainJobFlow
+    input:
+        ItemMaster (teppeistudio.jobflow.ItemMasterFromCsv)
+        SalesDetail (teppeistudio.jobflow.SalesDetailFromCsv)
+    output:
+        SalesDetail2 (teppeistudio.jobflow.SalesDetail2ToCsv)
+    stages:
+        prologue:
+        main:
+            stage: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageClient
+                mapper: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageMapper1
+                    fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment2
+                mapper: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageMapper2
+                    fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment1
+                reducer: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageReducer
+                    fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.ReduceFragment3
+                        operator: teppeistudio.operator.JoinOperator#joinedData([class teppeistudio.modelgen.dmdl.model.ItemMaster, class teppeistudio.modelgen.dmdl.model.SalesDetail])[]
+                    fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment4
+                        operator: com.asakusafw.vocabulary.flow.util.CoreOperatorFactory$Project#toString([])[]
+        epilogue:
+            stage: teppeistudio.batchapp.firstStepBatch.mainJobFlow.directio.epilogue.StageClient

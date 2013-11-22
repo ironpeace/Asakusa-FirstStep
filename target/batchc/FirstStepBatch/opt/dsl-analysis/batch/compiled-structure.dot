@@ -1,0 +1,24 @@
+digraph {
+    rankdir = LR;
+    "7a8da07b-8ad5-42c8-8620-3567ba8be798" [shape=box, label="Batch\nFirstStepBatch"];
+    "1b659ccb-553b-4131-a3a9-4fe352fd9cc3" [shape=box, label="JobFlow\nMainJobFlow"];
+    "b93c9ef8-9519-4c2b-92ff-de460efe5a14" [shape=box, label="Stage\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageClient"];
+    "c63993f2-9f95-4875-b51a-4436d2bf2055" [shape=box, label="Mapper\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageMapper1"];
+    "b93c9ef8-9519-4c2b-92ff-de460efe5a14" -> "c63993f2-9f95-4875-b51a-4436d2bf2055";
+    "8a2133e8-1ea8-4e38-83a3-c4c8b2014779" [shape=box, label="Fragment\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment2"];
+    "c63993f2-9f95-4875-b51a-4436d2bf2055" -> "8a2133e8-1ea8-4e38-83a3-c4c8b2014779";
+    "3218e99e-3ba1-4db6-bcfb-a79b0950c021" [shape=box, label="Mapper\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageMapper2"];
+    "b93c9ef8-9519-4c2b-92ff-de460efe5a14" -> "3218e99e-3ba1-4db6-bcfb-a79b0950c021";
+    "7b8e99e2-da33-4a45-a450-e9b8a0cfea2b" [shape=box, label="Fragment\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment1"];
+    "3218e99e-3ba1-4db6-bcfb-a79b0950c021" -> "7b8e99e2-da33-4a45-a450-e9b8a0cfea2b";
+    "f32ed33d-0ece-46f6-b134-918c38ed92cf" [shape=box, label="Reducer\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageReducer"];
+    "b93c9ef8-9519-4c2b-92ff-de460efe5a14" -> "f32ed33d-0ece-46f6-b134-918c38ed92cf";
+    "8674fef7-7982-4d22-87d1-35048544608e" [shape=box, label="Fragment\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.ReduceFragment3"];
+    "eed16d4f-6730-4063-9f15-9994cdc889eb" [shape=box, label="MasterJoin\nJoinOperator#joinedData"];
+    "8674fef7-7982-4d22-87d1-35048544608e" -> "eed16d4f-6730-4063-9f15-9994cdc889eb";
+    "f32ed33d-0ece-46f6-b134-918c38ed92cf" -> "8674fef7-7982-4d22-87d1-35048544608e";
+    "9fec6d4b-2fd0-4a2d-9548-1fd3d933792e" [shape=box, label="Fragment\nteppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment4"];
+    "f32ed33d-0ece-46f6-b134-918c38ed92cf" -> "9fec6d4b-2fd0-4a2d-9548-1fd3d933792e";
+    "1b659ccb-553b-4131-a3a9-4fe352fd9cc3" -> "b93c9ef8-9519-4c2b-92ff-de460efe5a14";
+    "7a8da07b-8ad5-42c8-8620-3567ba8be798" -> "1b659ccb-553b-4131-a3a9-4fe352fd9cc3";
+}
