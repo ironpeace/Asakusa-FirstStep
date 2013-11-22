@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: teppeistudio.jobflow.MainTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.555 sec <<< FAILURE!
-test(teppeistudio.jobflow.MainTest)  Time elapsed: 5.492 sec  <<< FAILURE!
-java.lang.AssertionError: HadoopƒWƒ‡ƒu‚ÌŽÀs‚ÉŽ¸”s‚µ‚Ü‚µ‚½ (exitCode=255, flowId=MainTest-bid-MainJobFlow, command=[/Users/ITPUser/asakusa-develop/asakusa/testing/libexec/hadoop-execute.sh, /var/folders/fE/fECDJocTFziXYxaZkbHIqk+++TM/-Tmp-/asakusa4597638092639809230.tmp/jobflow-MainJobFlow.jar, test.jobflow.bid.mainJobFlow.stage0001.StageClient, bid, -D, com.asakusafw.executionId=MainTest-bid-MainJobFlow, -D, com.asakusafw.batchArgs=, -D, com.asakusafw.user=ITPUser])
-	at com.asakusafw.testdriver.JobflowExecutor.runHadoopJob(JobflowExecutor.java:375)
-	at com.asakusafw.testdriver.JobflowExecutor.runJobflowJobs(JobflowExecutor.java:341)
-	at com.asakusafw.testdriver.JobflowExecutor.executePlan(JobflowExecutor.java:321)
-	at com.asakusafw.testdriver.JobflowExecutor.runJobflow(JobflowExecutor.java:224)
-	at com.asakusafw.testdriver.JobFlowTester.runTestInternal(JobFlowTester.java:155)
-	at com.asakusafw.testdriver.JobFlowTester.runTest(JobFlowTester.java:97)
-	at teppeistudio.jobflow.MainTest.test(MainTest.java:26)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.565 sec

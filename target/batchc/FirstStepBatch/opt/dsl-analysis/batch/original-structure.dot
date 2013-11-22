@@ -1,8 +1,8 @@
 digraph {
     rankdir = LR;
-    "5099c4e9-c4e8-43df-bfee-619be90cc014" [shape=box, label="Batch\nMainBatch"];
-    "9e04c932-a11f-4e9b-a9e6-1644165eea5c" [shape=box, label="JobFlow\nMainJobFlow"];
-    "6f2b4f9f-c1e3-4dd3-a16f-0357434ea086" [shape=box, label="MasterJoin\nJoinOperator#joinedData"];
-    "9e04c932-a11f-4e9b-a9e6-1644165eea5c" -> "6f2b4f9f-c1e3-4dd3-a16f-0357434ea086";
-    "5099c4e9-c4e8-43df-bfee-619be90cc014" -> "9e04c932-a11f-4e9b-a9e6-1644165eea5c";
+    "0ca1ef29-5eda-43bd-aebe-1fc575acd9f6" [shape=box, label="Batch\nMainBatch"];
+    "cb239b38-fc44-4b32-a03a-c3d3b7947148" [shape=box, label="JobFlow\nMainJobFlow"];
+    "8744317a-c469-4631-aa03-48a70ca6f77e" [shape=box, label="MasterJoin\nJoinOperator#joinedData"];
+    "cb239b38-fc44-4b32-a03a-c3d3b7947148" -> "8744317a-c469-4631-aa03-48a70ca6f77e";
+    "0ca1ef29-5eda-43bd-aebe-1fc575acd9f6" -> "cb239b38-fc44-4b32-a03a-c3d3b7947148";
 }

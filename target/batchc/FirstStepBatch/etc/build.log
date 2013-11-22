@@ -1,8 +1,9 @@
 core.batchId = FirstStepBatch
-core.buildId = 3410ea24-cb19-47cb-92a7-25763d324fc9
-ASAKUSA_HOME = /Users/ITPUser/asakusa-develop/asakusa
-com.asakusafw.batchapp.build.java.version = 1.6.0_65
-com.asakusafw.batchapp.build.timestamp = 2013-11-22 16:01:41
+core.buildId = 7eccdcac-10c5-42b8-8035-b7641f57c0f6
+ASAKUSA_DEVELOP_HOME = /home/asakusa/asakusa-develop
+ASAKUSA_HOME = /home/asakusa/asakusa-develop/asakusa
+com.asakusafw.batchapp.build.java.version = 1.6.0_27
+com.asakusafw.batchapp.build.timestamp = 2013-11-22 18:05:17
 com.asakusafw.batchapp.project.version = 1.0-SNAPSHOT
 com.asakusafw.compiler.options = 
 com.asakusafw.framework.version = 0.5.2

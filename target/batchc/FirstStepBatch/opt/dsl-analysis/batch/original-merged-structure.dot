@@ -1,8 +1,8 @@
 digraph {
     rankdir = LR;
-    "fdc79b26-e468-4fcc-b26b-9fcd06ff7f94" [shape=box, label="Batch\nMainBatch"];
-    "b881ad5a-70b4-41e8-9411-8cf14d6e5691" [shape=box, label="JobFlow\nMainJobFlow"];
-    "422a06d7-9da3-4c64-8759-f60fc5557893" [shape=box, label="MasterJoin\nJoinOperator#joinedData"];
-    "b881ad5a-70b4-41e8-9411-8cf14d6e5691" -> "422a06d7-9da3-4c64-8759-f60fc5557893";
-    "fdc79b26-e468-4fcc-b26b-9fcd06ff7f94" -> "b881ad5a-70b4-41e8-9411-8cf14d6e5691";
+    "00f054e4-b0f0-4954-8dc2-8e4ffd9329f5" [shape=box, label="Batch\nMainBatch"];
+    "dff7e9e1-1b76-4928-819d-9da7c8eadcb8" [shape=box, label="JobFlow\nMainJobFlow"];
+    "62be0452-e372-457d-8488-d0e7a45fb209" [shape=box, label="MasterJoin\nJoinOperator#joinedData"];
+    "dff7e9e1-1b76-4928-819d-9da7c8eadcb8" -> "62be0452-e372-457d-8488-d0e7a45fb209";
+    "00f054e4-b0f0-4954-8dc2-8e4ffd9329f5" -> "dff7e9e1-1b76-4928-819d-9da7c8eadcb8";
 }

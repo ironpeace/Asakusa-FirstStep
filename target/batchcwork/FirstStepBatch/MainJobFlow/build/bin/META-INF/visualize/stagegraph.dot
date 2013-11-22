@@ -1,25 +1,25 @@
 digraph {
-    subgraph "cluster_db6488cc-3a00-4d51-8b26-92b7ab08186f" {
-        label = "(sink)";
-        "3d087711-1e62-4e47-a557-73c72d1ddad8" [shape=invhouse, label="SalesDetail2"];
-    }
-    subgraph "cluster_324fbe29-fc2e-4ed3-b8a1-6f6dee151dd1" {
+    subgraph "cluster_6e23a4b0-dd19-400d-b51a-aedc4a7af5f4" {
         label = "stage0001";
         style = bold;
-        "6af99251-1a7b-40c6-b9e7-7a5507a12eca" [shape=point];
-        "169d5db1-0f0c-4f08-a896-67e21038c4e8" [shape=point];
-        "0fcd5f9c-68dc-46f4-95ef-a9e55db0fe1d" [shape=box, label="@MasterJoin\nJoinOperator.joinedData"];
-        "298e477c-d571-4c06-a269-0f767d47c4b7" [shape=box, label="@Project\nproject"];
+        "18254db7-c36b-49c2-8205-9b86fc3ed33d" [shape=box, label="@Project\nproject"];
+        "6fce093d-8cea-41a4-aeaf-0c0083ccc3c2" [shape=box, label="@MasterJoin\nJoinOperator.joinedData"];
+        "f90f4814-a53c-43cf-a476-273f51f1d9bd" [shape=point];
+        "7ae1611c-301a-402c-9c82-adf2092f31f9" [shape=point];
     }
-    subgraph "cluster_ec4980d2-b975-4745-94c4-41ec0618b958" {
+    subgraph "cluster_dda173d7-aa6a-4b5e-a26e-2568412cc374" {
         label = "(source)";
-        "dc5226d6-924f-487f-bf00-436ca2e6fe71" [shape=invhouse, label="SalesDetail"];
-        "446ac459-582f-43f8-941d-ffa10b896e58" [shape=invhouse, label="ItemMaster"];
+        "578405a3-71d4-4f60-9425-f7eae6514629" [shape=invhouse, label="SalesDetail"];
+        "a5c9d4dd-13d6-413f-9bdf-caf94e157ee9" [shape=invhouse, label="ItemMaster"];
     }
-    "6af99251-1a7b-40c6-b9e7-7a5507a12eca" -> "0fcd5f9c-68dc-46f4-95ef-a9e55db0fe1d" [label="out>detail"];
-    "169d5db1-0f0c-4f08-a896-67e21038c4e8" -> "0fcd5f9c-68dc-46f4-95ef-a9e55db0fe1d" [label="out>master"];
-    "298e477c-d571-4c06-a269-0f767d47c4b7" -> "3d087711-1e62-4e47-a557-73c72d1ddad8" [label="out>port"];
-    "0fcd5f9c-68dc-46f4-95ef-a9e55db0fe1d" -> "298e477c-d571-4c06-a269-0f767d47c4b7" [label="joined>in"];
-    "dc5226d6-924f-487f-bf00-436ca2e6fe71" -> "6af99251-1a7b-40c6-b9e7-7a5507a12eca" [label="port>in"];
-    "446ac459-582f-43f8-941d-ffa10b896e58" -> "169d5db1-0f0c-4f08-a896-67e21038c4e8" [label="port>in"];
+    subgraph "cluster_da0770dc-6fef-4925-b84a-624768a5119f" {
+        label = "(sink)";
+        "81220b29-a853-4964-ad0e-0894a7fb7664" [shape=invhouse, label="SalesDetail2"];
+    }
+    "18254db7-c36b-49c2-8205-9b86fc3ed33d" -> "81220b29-a853-4964-ad0e-0894a7fb7664" [label="out>port"];
+    "6fce093d-8cea-41a4-aeaf-0c0083ccc3c2" -> "18254db7-c36b-49c2-8205-9b86fc3ed33d" [label="joined>in"];
+    "f90f4814-a53c-43cf-a476-273f51f1d9bd" -> "6fce093d-8cea-41a4-aeaf-0c0083ccc3c2" [label="out>detail"];
+    "7ae1611c-301a-402c-9c82-adf2092f31f9" -> "6fce093d-8cea-41a4-aeaf-0c0083ccc3c2" [label="out>master"];
+    "578405a3-71d4-4f60-9425-f7eae6514629" -> "f90f4814-a53c-43cf-a476-273f51f1d9bd" [label="port>in"];
+    "a5c9d4dd-13d6-413f-9bdf-caf94e157ee9" -> "7ae1611c-301a-402c-9c82-adf2092f31f9" [label="port>in"];
 }

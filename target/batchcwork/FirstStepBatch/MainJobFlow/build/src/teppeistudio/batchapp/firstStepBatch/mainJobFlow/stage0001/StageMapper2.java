@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.apache.hadoop.io.NullWritable;
 import teppeistudio.modelgen.dmdl.model.ItemMaster;
 /**
- * {@code [in->padding(pseud#1755350607){owner=FlowBlock&#64;904723975}]}の処理を担当するマッププログラム。
+ * {@code [in->padding(pseud#13676443){owner=FlowBlock&#64;18248114}]}の処理を担当するマッププログラム。
  */
 @TraceLocation(batchId = "FirstStepBatch", flowId = "MainJobFlow", stageId = "stage0001", stageUnitId = "m2")@
         SuppressWarnings("deprecation") public final class StageMapper2 extends MapperWithRuntimeResource<NullWritable, 

@@ -4,7 +4,7 @@ import com.asakusafw.runtime.trace.TraceLocation;
 import teppeistudio.modelgen.dmdl.model.JoinedSalesDetail;
 import teppeistudio.modelgen.dmdl.model.SalesDetail2;
 /**
- * {@code [in->project(operator#665861146)]}の処理を担当するマッププログラムの断片。
+ * {@code [in->project(operator#28399250)]}の処理を担当するマッププログラムの断片。
  */
 @TraceLocation(batchId = "FirstStepBatch", flowId = "MainJobFlow", stageId = "stage0001", fragmentId = "4")@
         SuppressWarnings("deprecation") public final class MapFragment4 implements Result<JoinedSalesDetail> {
