@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: teppeistudio.jobflow.MainTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.565 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.323 sec

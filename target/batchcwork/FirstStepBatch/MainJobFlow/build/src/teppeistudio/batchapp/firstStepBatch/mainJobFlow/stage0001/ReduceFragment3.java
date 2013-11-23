@@ -5,7 +5,7 @@ import teppeistudio.modelgen.dmdl.model.ItemMaster;
 import teppeistudio.modelgen.dmdl.model.JoinedSalesDetail;
 import teppeistudio.modelgen.dmdl.model.SalesDetail;
 /**
- * {@code [master->JoinOperator.joinedData(operator#3154093), detail->JoinOperator.joinedData(operator#3154093)]}
+ * {@code [master->JoinOperator.joinedData(operator#956951190), detail->JoinOperator.joinedData(operator#956951190)]}
          * の処理を担当するマッププログラムの断片。
  */
 @TraceLocation(batchId = "FirstStepBatch", flowId = "MainJobFlow", stageId = "stage0001", fragmentId = "3")@

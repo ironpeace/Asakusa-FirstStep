@@ -10,9 +10,9 @@ flow: MainJobFlow
         main:
             stage: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageClient
                 mapper: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageMapper1
-                    fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment2
-                mapper: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageMapper2
                     fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment1
+                mapper: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageMapper2
+                    fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.MapFragment2
                 reducer: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.StageReducer
                     fragment: teppeistudio.batchapp.firstStepBatch.mainJobFlow.stage0001.ReduceFragment3
                         operator: teppeistudio.operator.JoinOperator#joinedData([class teppeistudio.modelgen.dmdl.model.ItemMaster, class teppeistudio.modelgen.dmdl.model.SalesDetail])[]

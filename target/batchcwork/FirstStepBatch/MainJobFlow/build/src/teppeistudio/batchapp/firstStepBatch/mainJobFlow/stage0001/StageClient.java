@@ -34,17 +34,17 @@ import teppeistudio.modelgen.dmdl.model.SalesDetail2;
         Map<String, String> attributes = null;
         attributes = new HashMap<String, String>();
         attributes.put("basePath", "firststep");
-        attributes.put("resourcePath", "sales-detail.csv");
-        attributes.put("dataClass", "teppeistudio.modelgen.dmdl.model.SalesDetail");
-        attributes.put("formatClass", "teppeistudio.modelgen.dmdl.csv.SalesDetailCsvFormat");
-        results.add(new StageInput("__DIRECTIO__/SalesDetail/firststep", BridgeInputFormat.class, StageMapper1.class, 
-                attributes));
-        attributes = new HashMap<String, String>();
-        attributes.put("basePath", "firststep");
         attributes.put("resourcePath", "item-master.csv");
         attributes.put("dataClass", "teppeistudio.modelgen.dmdl.model.ItemMaster");
         attributes.put("formatClass", "teppeistudio.modelgen.dmdl.csv.ItemMasterCsvFormat");
-        results.add(new StageInput("__DIRECTIO__/ItemMaster/firststep", BridgeInputFormat.class, StageMapper2.class, 
+        results.add(new StageInput("__DIRECTIO__/ItemMaster/firststep", BridgeInputFormat.class, StageMapper1.class, 
+                attributes));
+        attributes = new HashMap<String, String>();
+        attributes.put("basePath", "firststep");
+        attributes.put("resourcePath", "sales-detail.csv");
+        attributes.put("dataClass", "teppeistudio.modelgen.dmdl.model.SalesDetail");
+        attributes.put("formatClass", "teppeistudio.modelgen.dmdl.csv.SalesDetailCsvFormat");
+        results.add(new StageInput("__DIRECTIO__/SalesDetail/firststep", BridgeInputFormat.class, StageMapper2.class, 
                 attributes));
         return results;
     }

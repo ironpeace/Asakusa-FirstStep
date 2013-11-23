@@ -3,7 +3,7 @@ import com.asakusafw.runtime.core.Result;
 import com.asakusafw.runtime.trace.TraceLocation;
 import teppeistudio.modelgen.dmdl.model.ItemMaster;
 /**
- * {@code [in->padding(pseud#13676443)]}の処理を担当するマッププログラムの断片。
+ * {@code [in->padding(pseud#1301353792)]}の処理を担当するマッププログラムの断片。
  */
 @TraceLocation(batchId = "FirstStepBatch", flowId = "MainJobFlow", stageId = "stage0001", fragmentId = "1")@
         SuppressWarnings("deprecation") public final class MapFragment1 implements Result<ItemMaster> {

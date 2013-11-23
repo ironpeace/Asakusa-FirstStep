@@ -6,8 +6,8 @@ flow: MainJobFlow
     output:
         SalesDetail2 (teppeistudio.jobflow.SalesDetail2ToCsv)
     flow: teppeistudio.jobflow.MainJobFlow
+        operator: com.asakusafw.vocabulary.flow.util.CoreOperatorFactory$Project#toString([])[]
+        output: OutputDescription{name=SalesDetail2, type=class teppeistudio.modelgen.dmdl.model.SalesDetail2}
+        input: InputDescription{name=SalesDetail, type=class teppeistudio.modelgen.dmdl.model.SalesDetail}
         operator: teppeistudio.operator.JoinOperator#joinedData([class teppeistudio.modelgen.dmdl.model.ItemMaster, class teppeistudio.modelgen.dmdl.model.SalesDetail])[]
         input: InputDescription{name=ItemMaster, type=class teppeistudio.modelgen.dmdl.model.ItemMaster}
-        output: OutputDescription{name=SalesDetail2, type=class teppeistudio.modelgen.dmdl.model.SalesDetail2}
-        operator: com.asakusafw.vocabulary.flow.util.CoreOperatorFactory$Project#toString([])[]
-        input: InputDescription{name=SalesDetail, type=class teppeistudio.modelgen.dmdl.model.SalesDetail}

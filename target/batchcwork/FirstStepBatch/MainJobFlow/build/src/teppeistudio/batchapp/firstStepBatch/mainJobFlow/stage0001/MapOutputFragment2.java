@@ -4,7 +4,7 @@ import com.asakusafw.runtime.flow.ResultOutput;
 import org.apache.hadoop.mapreduce.TaskInputOutputContext;
 import teppeistudio.modelgen.dmdl.model.SalesDetail;
 /**
- * {@code detail->JoinOperator.joinedData(operator#3154093)}へのシャッフル処理を担当するプログラムの断片。
+ * {@code detail->JoinOperator.joinedData(operator#956951190)}へのシャッフル処理を担当するプログラムの断片。
  */
 @SuppressWarnings("deprecation") public final class MapOutputFragment2 implements Result<SalesDetail> {
     private final TaskInputOutputContext<?, ?, ? super ShuffleKey, ? super ShuffleValue> collector;
